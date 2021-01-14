@@ -34,7 +34,7 @@ xcuserdata
 examples/*.o.tmp
 examples/*.out.js
 examples/*.out.wasm
-examples/example_emscripten_opengl3/example_emscripten_opengl3.*
+examples/example_emscripten/example_emscripten.*
 
 ## JetBrains IDE artifacts
 .idea
@@ -48,7 +48,14 @@ examples/example_null/example_null
 examples/example_sdl_opengl2/example_sdl_opengl2
 examples/example_sdl_opengl3/example_sdl_opengl3
 
-# Out
+# Hazel-specific
+# Directories
 bin/
 bin-int/
-*.vcxproj
+
+ # Files
+Makefile 
+
+# Visual Studio files and folder
+*.sln
+*.vcxproj*
